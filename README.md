@@ -1,0 +1,28 @@
+# data_work
+Data analysis concepts along with different project implementation 
+
+<h3>Learning Portal</h3>
+
+[Learning Portal](https://github.com/Mithlesh7877/data_work/tree/main/LearningPortalAnalysis)
+is implementation of complete business use case for marketing campaign analysis and optimizing different aspects</br>
+and improving convertion rate and reducing cost incurred in marketing </br></br>
+- This project consist of demo databse of online learning platform like Udemy,EdX and tables consisting data about </br>
+  online campaigning parameters such as urchin tracking module (<b>UTM</b>)</br>
+  Different analysis are done along with real-world assignment from client and how analysis are done in organizations.</br>
+  
+ <h5>Tables:</h5>
+  1. order_item_refunds</br>
+  2. order_items</br>
+  3. orders</br>
+  4. products</br>
+  5. website_pageviews</br>
+  6. website_sessions</br></br>
+  
+  <h5>Files used</h5>
+ 
+  1.[learningportalschema](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/learningportalschema.sql)  - Creating database</br>
+  2.[orderiteminsert](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/orderiteminsert.sql) - For inserting values in order table</br> 
+  3.[productorderinsert](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/productorderinsert.sql) - For inserting values in product and order item table</br>
+  4.[refundinsert](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/refundinsert.sql) - For inserting values in order item refund table</br>
+  5.[webpageviewinsert](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/webpageviewinsert.sql) - For inserting values in web pageview table</br>
+  6.[websessioninsert](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/websessioninsert.sql) - For inserting values in web session table</br>
