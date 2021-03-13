@@ -1,7 +1,7 @@
 # data_work
 Data analysis concepts along with different project implementation 
 
-<h3>Learning Portal</h3>
+<h3>Project 1:- Learning Portal</h3>
 
 [Learning Portal](https://github.com/Mithlesh7877/data_work/tree/main/LearningPortalAnalysis)
 is implementation of complete business use case for marketing campaign analysis and optimizing different aspects</br>
@@ -18,7 +18,7 @@ and improving convertion rate and reducing cost incurred in marketing </br></br>
   5. website_pageviews</br>
   6. website_sessions</br></br>
   
-  <h5>Files used</h5>
+  <h5>Files used for table creation </h5>
  
   1.[learningportalschema](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/learningportalschema.sql)  - Creating database</br>
   2.[orderiteminsert](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/orderiteminsert.sql) - For inserting values in order table</br> 
@@ -26,3 +26,10 @@ and improving convertion rate and reducing cost incurred in marketing </br></br>
   4.[refundinsert](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/refundinsert.sql) - For inserting values in order item refund table</br>
   5.[webpageviewinsert](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/webpageviewinsert.sql) - For inserting values in web pageview table</br>
   6.[websessioninsert](https://github.com/Mithlesh7877/data_work/blob/main/LearningPortalAnalysis/websessioninsert.sql) - For inserting values in web session table</br>
+
+  <h5>Files used for Analysis </h5>
+  
+   1. Websitepageanalysis - Analysis of different page views and optimization for them</br>
+   2. channelportfolioanalysis - Analysis of different campaign channels on different devices</br>
+   3. productsalesanalysis - Analysis of different course and their sales </br>
+   4. trafficanalysis - Analysis of traffic on website from different marketing source and optimization of bidding and cost cutting according to them </br>
