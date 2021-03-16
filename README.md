@@ -35,7 +35,6 @@ and improving convertion rate and reducing cost incurred in marketing </br></br>
    4. trafficanalysis - Analysis of traffic on website from different marketing source and optimization of bidding and cost cutting according to them </br>
 
 
-
-<h3>Project 2:- Statistics</h3>
- -Excel file having implementation of different test and their interpretation.
+<h3>Project 2:- Statistics</h3></br>
+ Excel file having implementation of different test and their interpretation.
 
