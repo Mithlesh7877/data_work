@@ -33,3 +33,9 @@ and improving convertion rate and reducing cost incurred in marketing </br></br>
    2. channelportfolioanalysis - Analysis of different campaign channels on different devices</br>
    3. productsalesanalysis - Analysis of different course and their sales </br>
    4. trafficanalysis - Analysis of traffic on website from different marketing source and optimization of bidding and cost cutting according to them </br>
+
+
+
+<h3>Project 2:- Statistics</h3>
+ -Excel file having implementation of different test and their interpretation.
+
