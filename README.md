@@ -38,3 +38,6 @@ and improving convertion rate and reducing cost incurred in marketing </br></br>
 <h3>Project 2:- Statistics</h3></br>
  Excel file having implementation of different test and their interpretation.
 
+<h3>Python</h3></br>
+ Consist of package for preprocessing of data for data analysis to solve ML problems.
+ Dash and plotly knowledge base and projects 
