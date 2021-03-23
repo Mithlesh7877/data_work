@@ -38,6 +38,13 @@ and improving convertion rate and reducing cost incurred in marketing </br></br>
 <h3>Project 2:- Statistics</h3></br>
  Excel file having implementation of different test and their interpretation.
 
+<h3>Project 2:- Absenteeism Prediction</h3></br>
+
+[Absenteeism Prediction](https://github.com/Mithlesh7877/data_work/tree/main/Absenteeism%20prediction%20model)
+is implementation of classification model for predicting wheather a employee will be absent or not.
+- Project consist of module file for preprocessing of data and prediction of target class. 
+- Notebook consist of python code to use saved model and predict output
+- Databse created and integrated with notebook for inserting predicted values in database using <b>pymsql</b> </br></br>
 <h3>Python</h3></br>
  Consist of package for preprocessing of data for data analysis to solve ML problems.
  Dash and plotly knowledge base and projects 
