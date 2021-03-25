@@ -45,6 +45,6 @@ is implementation of classification model for predicting wheather a employee wil
 - Project consist of module file for preprocessing of data and prediction of target class. 
 - Notebook consist of python code to use saved model and predict output
 - Databse created and integrated with notebook for inserting predicted values in database using <b>pymsql</b> </br></br>
-<h2>Python</h2></br>
+<h2>Python</h2></br></br>
  Consist of package for preprocessing of data for data analysis to solve ML problems.
  Dash and plotly knowledge base and projects 
