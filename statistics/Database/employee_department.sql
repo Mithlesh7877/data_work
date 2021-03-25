@@ -1,0 +1,61 @@
+-- create database chinnu;
+use chinnu;
+-- create table department1008 (dept_no char(5) primary key,dept_name varchar(20) not null,location varchar(20));
+-- create table employee1008 (emp_no char(6) primary key,
+-- emp_name varchar(20) not null,
+-- dob date,
+-- address varchar(30),
+-- doj date,
+-- mobileno bigint,
+-- dept_no char(5),
+-- FOREIGN KEY (dept_no) references department1008(dept_no),
+-- salary decimal(9,2) check(salary>50000));
+
+-- alter table employee1008 add column designation varchar(20);
+-- select * from employee1008
+-- alter table employee1008 drop column address;
+-- insert into department1008 values('d01','Sales','Mumbai'),
+-- ('d02','marketing','banglore'),
+-- ('d03','inventory','chennai'),
+-- ('d04','business','goa'),
+-- ('d05','HR','Delhi');
+-- insert into employee1008 values(111,'John','1997-01-01','1998-02-02',1234567890,'d01',51000,'Manager'),
+-- (121,'Binny','1999-01-01','2000-02-02',9876543210,'d02',55000,'Developer'),
+-- (131,'Sparta','2001-01-01','2002-02-02',1234567899,'d03',60000,'analyst'),
+-- (141,'Manan','2003-01-01','2004-02-02',123456788,'d04',65000,'Typist'),
+-- (151,'Imam','2005-01-01','2006-02-02',1234567897,'d05',66000,'Lead'),
+-- (161,'Jimmy','2007-01-01','2008-02-02',9999955555,'d01',70000,'Intern');
+-- select * from employee1008;
+-- select * from department1008
+-- DELETE FROM employee1008 WHERE emp_no IS NULL;
+-- DELETE FROM department1008 WHERE dept_no IS NULL;
+
+-- select emp_no,emp_name from employee1008 where dept_no='d02';
+-- select mobileno from employee1008 where emp_name='John';
+-- select dept_name from department1008 where location='Chennai';
+-- DELETE FROM employee1008 WHERE mobileno=9999955555;
+-- update employee1008
+-- SET salary = salary * 1.15;
+
+-- select emp_no,emp_name,designation,dept_no,salary from employee1008 order by salary desc;
+-- select emp_no,emp_name from employee1008 where salary between 60000 and 70000;
+
+-- update employee1008 set salary=25000 where designation='Typist';
+-- update employee1008 set mobileno=56498712330 where emp_name='John';
+-- DELETE FROM employee1008 WHERE emp_no=121;
+-- select emp_name from employee1008 where emp_name like "Sp%"
+-- select emp_name from employee1008 where emp_name like "i%"
+-- select emp_name from employee1008 order by emp_name ;
+-- select emp_name from employee1008 order by emp_name desc;
+
+-- Exercise 4
+-- select count(*) from employee1008
+-- select avg(salary) as Average_sal,min(salary) as Minimum_sal,max(salary) as Maximum_sal from employee1008
+-- select dept_no ,avg(salary) as Average_sal_by_dept_no from employee1008 group by dept_no;
+-- select dept_no,sum(salary) from employee1008 where salary>25000 group by dept_no ;
+-- select max(salary)-min(salary) as Difference from employee1008;
+-- select  dept_no, count(*) as No_of_employee from employee1008 group by dept_no;
+-- select sum(salary) from employee1008
+-- select designation,sum(salary) from employee1008 group by 1;
+-- select min(salary) as Minimum from employee1008 group by designation;
+-- select count(designation) from employee1008
